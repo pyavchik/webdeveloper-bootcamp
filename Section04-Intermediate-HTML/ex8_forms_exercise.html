@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+					content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Forms Solution</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+		<div>
+				<label for="firstname">Firs Name:</label>
+				<input id="firstname" name="firstname" type="text" placeholder="John" required>
+				<label for="lastname">Last Name: </label>
+				<input id="lastname" name="lastname" type="text" placeholder="Smith"required>
+		</div>
+		<div>
+				<label for="male">Male</label>
+				<input name="gender" id="male" type="radio" value="male">
+				<label for="female">Female</label>
+				<input name="gender" id="Female" type="radio" value="female">
+				<label for="other">Other</label>
+				<input name="gender" id="other" type="radio" value="other">
+		</div>
+		<div>
+				<label for="email">
+						Email:
+						<input id="email" name="email" type="email" placeholder="your email" required>
+				</label>
+				<label for="password">
+						Password:
+						<input pattern=".{5,10}" required title="Password must be between 5 to 10 characters" id="password" name="password" type="password" placeholder="your password" required>
+				</label>
+		</div>
+		<div>
+				<label>
+						Birthday:
+						<select name="month">
+								<option>Month</option>
+								<option>Jan</option>
+								<option>Feb</option>
+								<option>Mar</option>
+						</select>
+						<select name="day">
+								<option>Day</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+						</select>
+						<select name="year">
+								<option>Year</option>
+								<option>1983</option>
+								<option>1984</option>
+								<option>1985</option>
+						</select>
+				</label>
+		</div>
+		<div>
+				<label for="agreed">I agree to the terms and conditions:</label>
+				<input id="agreed" name="agreed" type="checkbox">
+		</div>
+		<input type="submit">
+</form>
+
+</body>
+</html>
