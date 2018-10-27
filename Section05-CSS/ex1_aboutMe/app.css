@@ -1,0 +1,12 @@
+h1 {
+    color: rgba(0,200, 100, 0.8);
+    border: 5px purple solid;
+}
+
+h4 {
+    color: #a59aa1;
+}
+
+body {
+    background: url("http://www.koroseal.com/images/designs_large/OS105-01.jpg") no-repeat;
+}
