@@ -1,0 +1,15 @@
+body {
+    background: #ffe6c0;
+}
+
+li {
+    border: 1px solid #c0dfff;
+}
+
+#special {
+    background-color: pink;
+}
+
+.completed {
+    text-decoration: line-through;
+}
