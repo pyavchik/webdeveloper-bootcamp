@@ -1,0 +1,15 @@
+.blue{
+    background: #00bcff;
+    border: 1px solid #fff714;
+}
+
+.yellow{
+    background: #fff714;
+    border: 1px solid #00bcff;
+}
+
+.red{
+    background: #ff5346;
+    border: 1px solid #56ff41;
+    height: 50px;
+}
