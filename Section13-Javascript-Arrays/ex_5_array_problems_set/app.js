@@ -3,7 +3,7 @@ function printReverse(arr) {
         console.log(arr[i]);
     }
 }
-printReverse([3,6,2,5]);
+
 
 // isUniform
 function isUniform(arr) {
@@ -16,4 +16,23 @@ function isUniform(arr) {
     return true;
 }
 
-isUniform(1,1,1,1,1,11,3);
+
+// Sum array
+function sumArray(arr) {
+    var total = 0;
+    arr.forEach(function (element) {
+        total += element;
+    });
+    return total;
+}
+
+// *** max(
+function max(arr) {
+    var max = arr[0];
+    for (var i = 1; i < arr.length; i++) {
+        if(arr[i] > max){
+            max = arr[i];
+        }
+    }
+    return max;
+}
