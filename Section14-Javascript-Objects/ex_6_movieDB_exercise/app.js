@@ -1,4 +1,4 @@
-var movies = [
+let movies = [
     {
         title: "In Bruges",
         rating: 5,
@@ -22,15 +22,19 @@ var movies = [
 ];
 
 
-movies.forEach(function (movie) {
-    var resultString = "You have ";
+function buildString(movie) {
+    let resultString = "You have ";
 
-    if(movie.hasWatched){
+    if (movie.hasWatched) {
         resultString = resultString + "watched ";
     } else {
         resultString = resultString + "not seen ";
     }
-    resultString +=  "\"" + movie.title + "\"" + " - " + movie.rating + " stars";
-    console.log(resultString);
+    resultString += "\"" + movie.title + "\"" + " - " + movie.rating + " stars";
+    return resultString;
+}
+
+movies.forEach(function (movie) {
+    console.log(buildString(movie));
 
 });
