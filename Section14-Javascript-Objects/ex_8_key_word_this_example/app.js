@@ -1,6 +1,9 @@
 var comments = {};
 comments.data = ["Good Job!", "Bye", "Lame..."];
 
+var dogs = {};
+dogs.names = ["Puppy", ]
+
 
 
 function print(arr) {
