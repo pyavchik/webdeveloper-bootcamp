@@ -30,7 +30,7 @@ movies.forEach(function (movie) {
     } else {
         resultString = resultString + "not seen ";
     }
-    resultString +=  movie.title + " - " + movie.rating + " stars";
+    resultString +=  "\"" + movie.title + "\"" + " - " + movie.rating + " stars";
     console.log(resultString);
 
 });
