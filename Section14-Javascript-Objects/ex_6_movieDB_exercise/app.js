@@ -23,10 +23,14 @@ var movies = [
 
 
 movies.forEach(function (movie) {
+    var resultString = "You have ";
+
     if(movie.hasWatched){
-        console.log("You have watched " + movie.title + " - " + movie.rating + " stars")
+        resultString = resultString + "watched ";
     } else {
-        console.log("You have not seen " + movie.title + " - " + movie.rating + " stars")
+        resultString = resultString + "not seen ";
     }
+    resultString +=  movie.title + " - " + movie.rating + " stars";
+    console.log(resultString);
 
 });
