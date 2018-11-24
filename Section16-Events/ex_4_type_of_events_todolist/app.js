@@ -1,13 +1,15 @@
-var firstLi = document.querySelector("li");
+var lis = document.querySelectorAll("li");
 
-firstLi.addEventListener("mouseover", function () {
-    console.log("Mouse over first li");
-    firstLi.style.color = "green";
-});
+for(var i = 0; i < lis.length; i++){
+    lis[i].addEventListener("mouseover", function(){
+        this.classList.add("selected");
+    });
 
-firstLi.addEventListener("mouseout", function () {
-    console.log("Mouse over first li");
-    firstLi.style.color = "green";
-});
+    lis[i].addEventListener("mouseout", function(){
+        this.classList.remove("selected");
+    });
 
-
+    lis[i].addEventListener("click", function(){
+        this.classList.toggle("done");
+    });
+}
