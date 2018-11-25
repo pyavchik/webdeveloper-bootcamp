@@ -25,9 +25,9 @@ for (let i = 0; i < squares.length; i++) {
 
         // compare color to picked color
         if(clickedColor === pickedColor){
-            alert("Correct!");
+            alert("You clicked " + clickedColor + " Correct!");
         } else {
-            alert("Wrong!");
+            alert("You clicked " + clickedColor + "Wrong!");
         }
     })
 }
