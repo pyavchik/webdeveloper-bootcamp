@@ -19,6 +19,7 @@ resetButton.addEventListener("click", function () {
         // add initial colors to squares
         squares[i].style.backgroundColor = colors[i];
     }
+    h1.style.backgroundColor = "#232323";
 });
 
 colorDisplay.textContent = pickedColor;
