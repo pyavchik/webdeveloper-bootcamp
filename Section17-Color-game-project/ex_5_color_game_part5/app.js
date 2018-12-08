@@ -5,6 +5,21 @@ let pickedColor = pickColor();
 let colorDisplay = document.getElementById("colorDisplay");
 let messageDisplay = document.querySelector("#message");
 let h1 = document.querySelector("h1");
+let resetButton = document.querySelector('#reset');
+
+resetButton.addEventListener("click", function () {
+    // generate all new colors
+    pickedColor = pickColor();
+    // change colorDisplay to match picked Color
+    colorDisplay.textContent = pickedColor;
+
+
+    // change color of square
+    for (let i = 0; i < squares.length; i++) {
+        // add initial colors to squares
+        squares[i].style.backgroundColor = colors[i];
+    }
+});
 
 colorDisplay.textContent = pickedColor;
 
