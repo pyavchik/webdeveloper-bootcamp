@@ -1,4 +1,13 @@
-h1{
+body {
+    background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+    background: -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+    background: -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+    background: -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+    background: linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+    font-family: Roboto;
+}
+
+h1 {
     background: #2980b9;
     color: white;
     margin: 0;
@@ -6,19 +15,6 @@ h1{
     text-transform: uppercase;
     font-size: 24px;
     font-weight: normal;
-}
-
-.fa-plus {
-    float: right;
-}
-
-body {
-    background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
-    background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
-    background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
-    background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
-    background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
-    font-family: Roboto;
 }
 
 ul {
@@ -32,6 +28,10 @@ li {
     height: 40px;
     line-height: 40px;
     color: #555;
+}
+
+.fa-plus {
+    float: right;
 }
 
 span {
@@ -58,16 +58,16 @@ input {
     width: 100%;
     padding: 13px 13px 13px 20px;
     box-sizing: border-box;
-    border: 3px solid rgba(0,0,0,0);
+    border: 3px solid rgba(0, 0, 0, 0);
 }
 
-input:focus{
+input:focus {
     background: #fff;
     border: 3px solid #2980b9;
     outline: none;
 }
 
-li:nth-child(2n){
+li:nth-child(2n) {
     background: #f7f7f7;
 }
 
@@ -75,7 +75,7 @@ li:nth-child(2n){
     width: 360px;
     margin: 100px auto;
     background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .completed {
