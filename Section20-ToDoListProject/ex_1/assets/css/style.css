@@ -34,6 +34,77 @@ li {
     float: right;
 }
 
+#wide-input{
+    border-color: #2980b9;
+}
+
+#small-input{
+    border-color: #2980b9;
+    width: 150px;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+label {
+    font-family: "Fira Sans", sans-serif;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+
+
+#favoritestyled {
+    width: 200px;
+}
+
+#ice-cream-select{
+    border: 1px;
+}
+
+#ice-cream-choice {
+    width: 200px;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+bdi {
+
+}
+
+.name {
+    color: red;
+}
+
+
+
+b {
+
+}
+
+abbr {
+    font-style: italic;
+    font-weight: 100;
+}
+
 span {
     background: #e74c3c;
     height: 40px;
