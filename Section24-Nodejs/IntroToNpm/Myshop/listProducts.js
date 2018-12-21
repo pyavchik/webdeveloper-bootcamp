@@ -5,7 +5,5 @@ console.log("++++++++++++++++++++++++++++++++++++");
 console.log("WELCOME TO MY SHOP");
 console.log("++++++++++++++++++++++++++++++++++++");
 for (let i = 0; i < 10; i++) {
-    productName = faker.commerce.productName();
-    price = faker.commerce.price();
-    console.log(productName + " - " + price);
+    console.log(faker.commerce.productName() + " - " + faker.commerce.price() + " $");
 }
