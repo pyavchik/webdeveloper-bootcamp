@@ -19,16 +19,14 @@ app.get("/speak/:animal", function (req, res){
     res.send("The " + animal + " says "+ sound);
 });
 
-app.get("/repeat/hello/3", function (req, res){
-    res.send("hello hello hello");
-});
-
-app.get("/repeat/blah/2", function (req, res){
-    res.send("blah blah");
-});
-
-app.get("/repeat/hello/5", function (req, res){
-    res.send("hello hello hello hello hello");
+app.get("/repeat/:message/:times", function (req, res){
+    var messsage = req.params.message;
+    var times = Number(req.params.times);
+    var result = "";
+    for (let i = 0; i < times; i++) {
+        result += messsage + " ";
+    }
+    res.send(result);
 });
 
 
