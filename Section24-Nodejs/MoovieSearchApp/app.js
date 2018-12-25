@@ -4,9 +4,14 @@ var request = require("request");
 app.set("view engine", "ejs");
 
 
+app.get("/search", function (req, res) {
+    res.render("search");
+});
+
 app.get("/results", function (req, res) {
-    //http://www.omdbapi.com/?s=Bob&apiKey=thewdb
-    request("http://www.omdbapi.com/?s=Truman&apiKey=thewdb", function (error, respons, body) {
+    var query = req.query.search;
+    var url = "http://www.omdbapi.com/?s=" + query + "&apiKey=thewdb";
+    request(url, function (error, respons, body) {
         if(!error && respons.statusCode == 200){
             var data = JSON.parse(body);
             res.render("results", {data: data});
