@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b7724232-54e5-4a09-9769-917328823e5f" name="Default Changelist" comment="added lists html example">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webdeveloper-bootcamp" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/views/campgrounds.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV2/views/landing.ejs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/views/landing.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>options</find>
+      <find>h1</find>
+      <find>strip steak</find>
+      <find>Email</find>
+      <find>Ima</find>
+      <find>Ge</find>
+      <find>Per</find>
+      <find>md</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>option</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Section17-Color-game-project/ex_8_color_game_part8/styles.css" />
+        <option value="$PROJECT_DIR$/Section17-Color-game-project/ex_8_color_game_part8/colorGame.html" />
+        <option value="$PROJECT_DIR$/Section17-Color-game-project/ex_9_color_game_part9/styles.css" />
+        <option value="$PROJECT_DIR$/Section17-Color-game-project/ex_9_color_game_part9/app.js" />
+        <option value="$PROJECT_DIR$/Section17-Color-game-project/ex_9_color_game_part9/colorGame.html" />
+        <option value="$PROJECT_DIR$/Section18-JQuery/ex_1/jquery-3.3.1.js" />
+        <option value="$PROJECT_DIR$/Section18-JQuery/ex_1/jquery-3.3.1.min.js" />
+        <option value="$PROJECT_DIR$/Section18-JQuery/ex_1/jQueryDemo.html" />
+        <option value="$PROJECT_DIR$/Section18-JQuery/ex_2_jQuery_Selectors/app.js" />
+        <option value="$PROJECT_DIR$/Section18-JQuery/ex_2_jQuery_Selectors/jQueryDemo.html" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/app.css" />
+        <option value="$PROJECT_DIR$/Section06-Intermediate-CSS/ex2_google_fonts/fonts.html" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/style.css" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/js/lib/jquery-2.2.4.min.js" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/app.js" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/js/lib/jquery-2.1.4.js" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/index.html" />
+        <option value="$PROJECT_DIR$/Section23-CommandLine/message.txt" />
+        <option value="$PROJECT_DIR$/Section23-CommandLine/IntroToCommandLine/hello.html" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/IntroToNode/hello.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/IntroToNode/echo.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/IntroToNode/grader.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/IntroToNpm/DemoApp/app.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/IntroToNpm/Myshop/listProducts.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/FirstExpressApp/.gitignore" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/FirstExpressApp/app.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/ExpressAppFromScratch/app.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/index.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/app.css" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/app.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/partials/footer.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/love.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/posts.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/home.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/partials/header.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/PostRequestDemo/views/home.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/PostRequestDemo/views/friends.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/PostRequestDemo/app.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/APIs/first_request.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/APIs/second_request.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/package.json" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/views/results.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/views/search.ejs" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/app.js" />
+        <option value="$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/views/results.ejs" />
+        <option value="$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/views/landing.ejs" />
+        <option value="$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/app.js" />
+        <option value="$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/views/campgrounds.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="102" />
+    <option name="y" value="23" />
+    <option name="width" value="1248" />
+    <option name="height" value="842" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section24-Nodejs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section24-Nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreExpress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section24-Nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreExpress" type="462c0819:PsiDirectoryNode" />
+              <item name="PostRequestDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section24-Nodejs" type="462c0819:PsiDirectoryNode" />
+              <item name="MoreExpress" type="462c0819:PsiDirectoryNode" />
+              <item name="PostRequestDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section28-YelpCamp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section28-YelpCamp" type="462c0819:PsiDirectoryNode" />
+              <item name="YelpCampV1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section28-YelpCamp" type="462c0819:PsiDirectoryNode" />
+              <item name="YelpCampV1" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section28-YelpCamp" type="462c0819:PsiDirectoryNode" />
+              <item name="YelpCampV2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdeveloper-bootcamp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdeveloper-bootcamp" type="462c0819:PsiDirectoryNode" />
+              <item name="Section28-YelpCamp" type="462c0819:PsiDirectoryNode" />
+              <item name="YelpCampV2" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/public" />
+      <recent name="$PROJECT_DIR$/Section21-PatatapClone" />
+      <recent name="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/js" />
+      <recent name="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/js/lib" />
+      <recent name="$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Section28-YelpCamp" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Section24-Nodejs/APIs" />
+      <recent name="$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/partials" />
+      <recent name="$PROJECT_DIR$/Section18-JQuery/ex_5_jQuery_Effects" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="ex2_selectors_basics.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webdeveloper-bootcamp/Section05-CSS/ex2_selectors_basics/ex2_selectors_basics.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/webdeveloper-bootcamp/Section20-ToDoListProject/ex_1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="modelbox.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/webdeveloper-bootcamp/Section06-Intermediate-CSS/ex3_box_model/modelbox.html">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.ex2_selectors_basics.html" />
+      <item itemvalue="JavaScript Debug.modelbox.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.modelbox.html" />
+        <item itemvalue="JavaScript Debug.ex2_selectors_basics.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7724232-54e5-4a09-9769-917328823e5f" name="Default Changelist" comment="" />
+      <created>1540622813606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540622813606</updated>
+      <workItem from="1540622814711" duration="1983000" />
+      <workItem from="1540629397502" duration="32593000" />
+      <workItem from="1540810827167" duration="1699000" />
+      <workItem from="1540839516303" duration="241000" />
+      <workItem from="1540840410737" duration="3642000" />
+      <workItem from="1540882278666" duration="3002000" />
+      <workItem from="1540911287684" duration="4880000" />
+      <workItem from="1540917045677" duration="113000" />
+      <workItem from="1540968072070" duration="2339000" />
+      <workItem from="1540996305263" duration="26000" />
+      <workItem from="1541054806991" duration="3881000" />
+      <workItem from="1541059956803" duration="1977000" />
+      <workItem from="1541146008894" duration="110000" />
+      <workItem from="1541146482176" duration="315000" />
+      <workItem from="1541190645101" duration="4752000" />
+      <workItem from="1541237080579" duration="581000" />
+      <workItem from="1541237691021" duration="1032000" />
+      <workItem from="1541239254389" duration="135000" />
+      <workItem from="1541239401586" duration="140000" />
+      <workItem from="1541239557393" duration="88000" />
+      <workItem from="1541239658683" duration="70000" />
+      <workItem from="1541239742850" duration="79000" />
+      <workItem from="1541239835215" duration="142000" />
+      <workItem from="1541239990443" duration="1505000" />
+      <workItem from="1541246120548" duration="2172000" />
+      <workItem from="1541249267271" duration="220000" />
+      <workItem from="1541249536675" duration="72000" />
+      <workItem from="1541249621307" duration="11503000" />
+      <workItem from="1541347155557" duration="14260000" />
+      <workItem from="1541407522851" duration="88000" />
+      <workItem from="1541407777721" duration="11000" />
+      <workItem from="1541445953583" duration="6340000" />
+      <workItem from="1541490761156" duration="467000" />
+      <workItem from="1541497985288" duration="913000" />
+      <workItem from="1541499179699" duration="2610000" />
+      <workItem from="1541507746616" duration="132000" />
+      <workItem from="1541522832106" duration="2478000" />
+      <workItem from="1541579690304" duration="429000" />
+      <workItem from="1541651255453" duration="8746000" />
+      <workItem from="1541680588202" duration="4714000" />
+      <workItem from="1541699138683" duration="5598000" />
+      <workItem from="1541756458890" duration="597000" />
+      <workItem from="1541869488691" duration="282000" />
+      <workItem from="1541926437914" duration="9401000" />
+      <workItem from="1542032003324" duration="598000" />
+      <workItem from="1542104783451" duration="591000" />
+      <workItem from="1542108754097" duration="258000" />
+      <workItem from="1542109861653" duration="544000" />
+      <workItem from="1542112458772" duration="416000" />
+      <workItem from="1542117748718" duration="1330000" />
+      <workItem from="1542187596146" duration="3077000" />
+      <workItem from="1542197348179" duration="1102000" />
+      <workItem from="1542207371575" duration="5151000" />
+      <workItem from="1542230520927" duration="2171000" />
+      <workItem from="1542266261451" duration="2208000" />
+      <workItem from="1542276959986" duration="5394000" />
+      <workItem from="1542317194135" duration="31000" />
+      <workItem from="1542406544703" duration="25061000" />
+      <workItem from="1542641819580" duration="2000" />
+      <workItem from="1542649271405" duration="13919000" />
+      <workItem from="1542747748851" duration="4889000" />
+      <workItem from="1542802764203" duration="2000" />
+      <workItem from="1543070314109" duration="8882000" />
+      <workItem from="1543236092368" duration="940000" />
+      <workItem from="1543247881337" duration="5000" />
+      <workItem from="1543261357562" duration="2779000" />
+      <workItem from="1543439197794" duration="3444000" />
+      <workItem from="1543498694402" duration="2000" />
+      <workItem from="1543526250672" duration="589000" />
+      <workItem from="1544304455393" duration="3740000" />
+      <workItem from="1544460595651" duration="110000" />
+      <workItem from="1544474261917" duration="4500000" />
+      <workItem from="1544551373798" duration="292000" />
+      <workItem from="1544551804860" duration="827000" />
+      <workItem from="1544732830956" duration="914000" />
+      <workItem from="1544809569200" duration="1147000" />
+      <workItem from="1544993266761" duration="4830000" />
+      <workItem from="1545077282354" duration="4780000" />
+      <workItem from="1545157820118" duration="25602000" />
+      <workItem from="1545425477774" duration="5935000" />
+      <workItem from="1545504539115" duration="16675000" />
+      <workItem from="1545729784946" duration="13860000" />
+      <workItem from="1545838577816" duration="3860000" />
+    </task>
+    <task id="LOCAL-00001" summary="added example introduction to HTML">
+      <created>1540623090014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540623090014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added lists html example">
+      <created>1540627615199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540627615199</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added gitignore">
+      <created>1545688659963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545688659964</updated>
+    </task>
+    <task id="LOCAL-00004" summary="initial routs for yelp camp prj">
+      <created>1545842291232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545842291232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="306815000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="102" y="23" width="1248" height="842" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4936479" visible="true" weight="0.18989405" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50635207" side_tool="true" weight="0.30580136" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983795" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992743" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989354" visible="true" weight="0.552" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010646" side_tool="true" weight="0.4366063" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4936479" visible="true" weight="0.3598901" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50635207" side_tool="true" weight="0.30580136" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4992743" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989354" visible="true" weight="0.4366063" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010646" side_tool="true" weight="0.4366063" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added example introduction to HTML" />
+    <MESSAGE value="added lists html example" />
+    <MESSAGE value="added gitignore" />
+    <MESSAGE value="initial routs for yelp camp prj" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial routs for yelp camp prj" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/js/lib/jquery-2.1.4.js" />
+    <entry file="file://$PROJECT_DIR$/Section21-PatatapClone/ex_1/assets/js/lib/jquery-2.1.4.min.js" />
+    <entry file="file://$PROJECT_DIR$/Section23-CommandLine/circles.css" />
+    <entry file="file://$PROJECT_DIR$/Section23-CommandLine/message.txt" />
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/IntroToCommandLine/colors/red.txt" />
+    <entry file="file://$PROJECT_DIR$/Section20-ToDoListProject/ex_1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section21-PatatapClone/ExerciseSolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section23-CommandLine/IntroToCommandLine/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/IntroToNode/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/IntroToNode/echo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section20-ToDoListProject/ex_1/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/IntroToNode/grader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/IntroToNpm/Myshop/listProducts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/FirstExpressApp/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9744">
+          <caret line="615" selection-start-line="615" selection-end-line="615" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/FirstExpressApp/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/FirstExpressApp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/FirstExpressApp/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="363" column="13" selection-start-line="363" selection-start-column="13" selection-end-line="363" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/IntroToNpm/DemoApp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/ExpressAppFromScratch/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/FirstExpressApp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" selection-start-line="24" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/ExpressAppFromScratch/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/node_modules/ejs/lib/ejs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="250" column="15" selection-start-line="250" selection-start-column="15" selection-end-line="250" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/posts.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/love.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/partials/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/home.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/public/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/EJSDemo/views/partials/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/PostRequestDemo/views/friends.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/PostRequestDemo/views/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/APIs/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/APIs/first_request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/APIs/second_request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/views/search.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/views/results.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/APIs/node_modules/qs/lib/index.js" />
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/node_modules/express/lib/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="591" column="2" selection-start-line="591" selection-start-column="2" selection-end-line="591" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoovieSearchApp/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/PostRequestDemo/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section24-Nodejs/MoreExpress/PostRequestDemo/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/views/landing.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/views/campgrounds.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Section28-YelpCamp/YelpCampV2/views/landing.ejs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
