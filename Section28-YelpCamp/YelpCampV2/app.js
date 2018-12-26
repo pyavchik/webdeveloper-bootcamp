@@ -1,5 +1,8 @@
 var express = require("express");
 var app = express();
+var bodyParser = require("body-parser");
+
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.set("view engine", "ejs");
 
@@ -14,6 +17,17 @@ app.get("/campgrounds", function (req, res) {
         {name: "Mountain Goat's Rest", image: "https://travel.home.sndimg.com/content/dam/images/travel/fullrights/2016/01/14/national-park-camping/camping-glacier-national-park-camping.jpg.rend.hgtvcom.966.725.suffix/1491593018562.jpeg"},
     ];
     res.render("campgrounds", {campgrounds:campgrounds});
+});
+
+app.post("/campgrounds", function (req, res) {
+    res.send("You hit the post route!");
+    // get data from form and add to campgrounds array
+    // redirect back to campgrounds p
+
+});
+
+app.get("/campgrounds/new", function (req, res) {
+    res.render("new.ejs");
 });
 
 app.listen(3000, function () {
