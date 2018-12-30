@@ -51,7 +51,8 @@ app.post("/campgrounds", function (req, res) {
     // get data from form and add to campgrounds array
     var name = req.body.name;
     var image = req.body.image;
-    var newCampground = {name: name, image: image};
+    var description = req.body.description;
+    var newCampground = {name: name, image: image, description: description};
     // Create a new campground and save to DB
     Campground.create(newCampground, function (err, newlyCreated) {
         if(!err){
@@ -66,13 +67,34 @@ app.post("/campgrounds", function (req, res) {
 
 });
 
+// NEW Show form to add new campground
 app.get("/campgrounds/new", function (req, res) {
     res.render("new.ejs");
 });
 
-// SHOW -shows more info about one campground
+// SHOW -shows all info about specific page
 app.get("/campgrounds/:id", function (req, res) {
-    res.render("show.ejs");
+    Campground.findById(req.params.id, function (err, foundCampground) {
+       if(err){
+           console.log(err);
+       } else {
+           res.render("show", {campground:foundCampground});
+       }
+    });
+
+});
+
+// INDEX: Show all campgrounds
+app.get("/campgrounds", function(req, res){
+    // Get all campgrounds from DB
+    Campground.find({}, function(err, allCampgrounds){
+        if(err){
+            console.log(err);
+        } else {
+            res.render("index", {campgrounds: allCampgrounds});
+
+        }
+    });
 });
 
 app.listen(3000, function () {
