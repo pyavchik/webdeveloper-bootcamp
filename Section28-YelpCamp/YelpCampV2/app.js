@@ -2,19 +2,16 @@ var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
 var mongoose = require("mongoose");
+var Campground = require("./models/campground");
+var seedDB = require("./seeds");
+var Comment = require("./models/comment");
+// var User = require("./models/user");
+
 
 mongoose.connect("mongodb://localhost:27017/yelp_camp", { useNewUrlParser: true });
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
-
-// SCHEMA SETUP
-var campgroundSchema = new mongoose.Schema({
-    name: String,
-    image: String,
-    description: String
-});
-
-var Campground = mongoose.model("Campground", campgroundSchema);
+seedDB();
 
 // Campground.create(
 //     {
@@ -40,7 +37,7 @@ app.get("/campgrounds", function (req, res) {
     // Get all campgrounds from DB
     Campground.find({}, function (err, allCampgrounds) {
         if(!err){
-            res.render("index", {campgrounds:allCampgrounds});
+            res.render("campgrounds/index", {campgrounds:allCampgrounds});
         } else {
             console.log(err);
         }
@@ -69,16 +66,17 @@ app.post("/campgrounds", function (req, res) {
 
 // NEW Show form to add new campground
 app.get("/campgrounds/new", function (req, res) {
-    res.render("new.ejs");
+    res.render("campgrounds/new");
 });
 
 // SHOW -shows all info about specific page
 app.get("/campgrounds/:id", function (req, res) {
-    Campground.findById(req.params.id, function (err, foundCampground) {
+    Campground.findById(req.params.id).populate("comments").exec(function (err, foundCampground) {
        if(err){
            console.log(err);
        } else {
-           res.render("show", {campground:foundCampground});
+           console.log(foundCampground);
+           res.render("campgrounds/show", {campground:foundCampground});
        }
     });
 
@@ -96,6 +94,21 @@ app.get("/campgrounds", function(req, res){
         }
     });
 });
+
+// ===========================
+// COMMENTS ROUTES
+// ===========================
+app.get("/campgrounds/:id/comments/new", function (req, res) {
+    // find campground by id
+    Campground.findById(req.params.id, function (err, campground) {
+        if(err) {
+            console.log(err);
+        } else {
+            res.render("comments/new", {campground: campground});
+        }
+    });
+});
+
 
 app.listen(3000, function () {
    console.log("Server started on port 3000");
