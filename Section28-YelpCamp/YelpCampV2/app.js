@@ -109,6 +109,28 @@ app.get("/campgrounds/:id/comments/new", function (req, res) {
     });
 });
 
+app.post("/campgrounds/:id/comments", function (req, res) {
+    // lookup campground using ID
+    Campground.findById(req.params.id, function (err, campgdround) {
+        if(err){
+            console.log(err);
+            redirect("/campgrounds");
+        } else {
+            console.log(req.body.comment);
+            Comment.create(req.body.comment, function (err, comment) {
+                if (err){
+                    console.log(err);
+                } else {
+                    campgdround.comments.push(comment);
+                    campgdround.save();
+                    res.redirect("/campgrounds/" + campgdround._id);
+                }
+            })
+        }
+    });
+    // create new comment to campground
+    // redirect campground show page
+});
 
 app.listen(3000, function () {
    console.log("Server started on port 3000");
