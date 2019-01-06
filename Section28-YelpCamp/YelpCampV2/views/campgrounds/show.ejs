@@ -15,26 +15,31 @@
                 <div class="caption full" style="padding: 9px">
                     <h4 class="pull-right">$9.00/night</h4>
                     <h4><a href=""><%= campground.name %></a></h4>
-                    <p><p><%= campground.description %> </p></p>
+                    <p>
+                    <p><%= campground.description %> </p></p>
                 </div>
             </div>
             <div class="well">
-                <div class="text-right"><a class="btn btn-success" href="/campgrounds/<%= campground._id %>/comments/new">Add New Comment</a></div>
+                <div class="text-right"><a class="btn btn-success"
+                                           href="/campgrounds/<%= campground._id %>/comments/new">Add New Comment</a>
+                </div>
                 <hr>
-                <% campground.comments.forEach(function (comment) {%>
+                <% campground.comments.forEach(function (comment) { %>
                     <div class="row">
-                        <strong> <div class="col-md-12"> </strong>
-                            <%= comment.author %>
-                            <span class="pull-right"></span>
-                            <p>
-                                <strong><%= comment.author %> </strong>- <%= comment.text %>
-                            </p>
-                        </div>
+                        <strong>
+                            <div class="col-md-12">
+                        </strong>
+                        <%= comment.author %>
+                        <span class="pull-right"></span>
+                        <p>
+                            <strong><%= comment.author %> </strong>- <%= comment.text %>
+                        </p>
                     </div>
-
-                <% }) %>
             </div>
+
+            <% }) %>
         </div>
     </div>
+</div>
 </div>
 <% include ../partials/footer %>
