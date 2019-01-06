@@ -8,26 +8,10 @@ var Comment = require("./models/comment");
 // var User = require("./models/user");
 
 
-mongoose.connect("mongodb://localhost:27017/yelp_camp", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 seedDB();
-
-// Campground.create(
-//     {
-//         name: "Granite Hill",
-//         image: "https://www.planetware.com/photos-large/USSD/south-dakota-black-hills-national-forest-horsethief-lake-campground-tent-site.jpg",
-//         description: "This is a huge granite hill, no bathrooms. No water. Beautiful granite!"
-//     }, function (err, campground) {
-//         if (!err){
-//             console.log("Newly created campground");
-//             console.log(campground);
-//         } else {
-//             console.log("Error");
-//         }
-//     }
-// );
-
 
 app.get("/", function (req, res) {
     res.render("landing");
@@ -36,8 +20,8 @@ app.get("/", function (req, res) {
 app.get("/campgrounds", function (req, res) {
     // Get all campgrounds from DB
     Campground.find({}, function (err, allCampgrounds) {
-        if(!err){
-            res.render("campgrounds/index", {campgrounds:allCampgrounds});
+        if (!err) {
+            res.render("campgrounds/index", {campgrounds: allCampgrounds});
         } else {
             console.log(err);
         }
@@ -52,7 +36,7 @@ app.post("/campgrounds", function (req, res) {
     var newCampground = {name: name, image: image, description: description};
     // Create a new campground and save to DB
     Campground.create(newCampground, function (err, newlyCreated) {
-        if(!err){
+        if (!err) {
             res.redirect("/campgrounds");
         } else {
             console.log(err);
@@ -72,21 +56,21 @@ app.get("/campgrounds/new", function (req, res) {
 // SHOW -shows all info about specific page
 app.get("/campgrounds/:id", function (req, res) {
     Campground.findById(req.params.id).populate("comments").exec(function (err, foundCampground) {
-       if(err){
-           console.log(err);
-       } else {
-           console.log(foundCampground);
-           res.render("campgrounds/show", {campground:foundCampground});
-       }
+        if (err) {
+            console.log(err);
+        } else {
+            console.log(foundCampground);
+            res.render("campgrounds/show", {campground: foundCampground});
+        }
     });
 
 });
 
 // INDEX: Show all campgrounds
-app.get("/campgrounds", function(req, res){
+app.get("/campgrounds", function (req, res) {
     // Get all campgrounds from DB
-    Campground.find({}, function(err, allCampgrounds){
-        if(err){
+    Campground.find({}, function (err, allCampgrounds) {
+        if (err) {
             console.log(err);
         } else {
             res.render("index", {campgrounds: allCampgrounds});
@@ -101,7 +85,7 @@ app.get("/campgrounds", function(req, res){
 app.get("/campgrounds/:id/comments/new", function (req, res) {
     // find campground by id
     Campground.findById(req.params.id, function (err, campground) {
-        if(err) {
+        if (err) {
             console.log(err);
         } else {
             res.render("comments/new", {campground: campground});
@@ -112,13 +96,13 @@ app.get("/campgrounds/:id/comments/new", function (req, res) {
 app.post("/campgrounds/:id/comments", function (req, res) {
     // lookup campground using ID
     Campground.findById(req.params.id, function (err, campgdround) {
-        if(err){
+        if (err) {
             console.log(err);
             redirect("/campgrounds");
         } else {
             console.log(req.body.comment);
             Comment.create(req.body.comment, function (err, comment) {
-                if (err){
+                if (err) {
                     console.log(err);
                 } else {
                     campgdround.comments.push(comment);
@@ -133,5 +117,5 @@ app.post("/campgrounds/:id/comments", function (req, res) {
 });
 
 app.listen(3000, function () {
-   console.log("Server started on port 3000");
+    console.log("Server started on port 3000");
 });
