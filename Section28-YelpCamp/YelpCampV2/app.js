@@ -8,7 +8,7 @@ var Campground = require("./models/campground");
 var seedDB = require("./seeds");
 var Comment = require("./models/comment");
 var User = require("./models/user");
-// var User = require("./models/user");
+
 
 
 mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true});
@@ -140,6 +140,21 @@ app.post("/campgrounds/:id/comments", function (req, res) {
 app.get("/register", function (req, res) {
     res.render("register");
 });
+
+// handle sign up login
+app.post("/register", function (req, res) {
+    var newUser = new User({username: req.body.username});
+    User.register(newUser, req.body.password, function (err, user) {
+        if(err) {
+            console.log(err);
+            return res.render("register");
+        }
+        passport.authenticate("local")(req, res, function(){
+            res.redirect("/campgrounds");
+        })
+    });
+});
+
 
 app.listen(3000, function () {
     console.log("Server started on port 3000");
