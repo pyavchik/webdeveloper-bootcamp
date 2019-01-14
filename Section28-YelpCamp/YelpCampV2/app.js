@@ -136,6 +136,10 @@ app.post("/campgrounds/:id/comments", function (req, res) {
 // AUTH ROUTES
 // ================
 
+// show register form
+app.get("/register", function (req, res) {
+    res.render("register");
+});
 
 app.listen(3000, function () {
     console.log("Server started on port 3000");
