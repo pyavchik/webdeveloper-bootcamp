@@ -23,7 +23,7 @@ router.post("/", isLoggedIn, function (req, res) {
         id: req.user._id,
         username: req.user.username
     };
-    var newCampground = {name: name, image: image, description: description, author:author};
+    var newCampground = {name: name, image: image, description: description, author: author};
 
     // Create a new campground and save to DB
     Campground.create(newCampground, function (err, newlyCreated) {
@@ -33,10 +33,6 @@ router.post("/", isLoggedIn, function (req, res) {
             console.log(err);
         }
     });
-
-    // redirect back to campgrounds page
-
-
 });
 
 // NEW Show form to add new campground
@@ -58,8 +54,8 @@ router.get("/:id", function (req, res) {
 });
 
 // middleware
-function isLoggedIn(req, res, next){
-    if(req.isAuthenticated()){
+function isLoggedIn(req, res, next) {
+    if (req.isAuthenticated()) {
         return next();
     }
     res.redirect("/login")
