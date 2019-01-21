@@ -10,9 +10,9 @@ var Comment = require("./models/comment");
 var User = require("./models/user");
 
 // requring routes
-var commentRoutes    = require("./routes/comments"),
+var commentRoutes = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
-    indexRoutes       = require("./routes/index");
+    indexRoutes = require("./routes/index");
 
 mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended: true}));
